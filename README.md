@@ -1,6 +1,8 @@
-Name: Jose Cuellar
-Perm: 8907826
-Email Address: jrecinos@ucsb.edu
-Issues: I had the most trouble building the scanner and understanding how to parse valid inputs and when to throw errors. For the parser I had the most difficulty translating my grammar to code. I struggled to understand how the recursion worked to correctly evaluate expressions. 
-Assumptions: I assumed that inputs such as " 1  2+6" should be treated as scanner errors. 
-Name on Piazza: Jose Recinos
+# Token Scanner / Parser
+
+- **Description** : Compiler token scanner and parser for a calculator program. Th eprogram takes as input simple number equations (such as 3+8\*2) and after parsing the tokens it gets translated to English (number3 + number8 * number 2).
+___
+- **Relevant Area** : COmpilers.
+___
+- **Tools / Platforms**:  C++, Yacc, Lex, Unix
+___
